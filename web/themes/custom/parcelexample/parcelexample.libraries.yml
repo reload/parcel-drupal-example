@@ -1,0 +1,10 @@
+base:
+  version: '1.0'
+  css:
+    theme:
+      dist/css/example.css: {}
+  js:
+    dist/js/example.js : {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
