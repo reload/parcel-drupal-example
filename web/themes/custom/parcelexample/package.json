@@ -1,16 +1,13 @@
 {
-  "name": "parcel-theme",
+  "name": "parcel-example",
   "version": "0.1.0",
-  "description": "An example of Parcel usage.",
+  "description": "An example of Parcel usage in Drupal 9.",
   "private": true,
   "scripts": {
-    "build:js": "parcel build './src/js/**/*.js' --dist-dir './dist/js'",
-    "build:scss": "parcel build './src/scss/**/*.scss' --dist-dir './dist/css'",
-    "build": "npm run build:js && npm run build:scss",
-    "watch:js": "parcel watch './src/js/**/*.js' --dist-dir './dist/js' --no-hmr",
-    "watch:scss": "parcel watch './src/scss/**/*.scss' --dist-dir './dist/css' --no-hmr",
-    "watch": "npm run watch:js & npm run watch:scss"
+    "build": "parcel build './src/**/*.(js|scss)' --dist-dir './dist'",
+    "watch": "parcel build './src/**/*.(js|scss)' --dist-dir './dist' --no-hmr"
   },
+  "browserslist": ["> 0.2%", "not dead"],
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"

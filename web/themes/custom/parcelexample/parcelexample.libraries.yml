@@ -2,7 +2,7 @@ base:
   version: '1.0'
   css:
     theme:
-      dist/css/example.css: {}
+      dist/styling/example.css: {}
   js:
     dist/js/example.js : {}
   dependencies:
