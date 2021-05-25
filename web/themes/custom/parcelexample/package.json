@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "parcel build './src/**/*.(js|scss)' --dist-dir './dist'",
-    "watch": "parcel build './src/**/*.(js|scss)' --dist-dir './dist' --no-hmr"
+    "watch": "parcel watch './src/**/*.(js|scss)' --dist-dir './dist' --no-hmr"
   },
   "browserslist": ["> 0.2%", "not dead"],
   "devDependencies": {
